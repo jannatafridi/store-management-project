@@ -17,10 +17,11 @@ Use your knowledge of object-oriented programming and class structure and design
 
 ## UML Diagram
 
-Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here.
-
-![UML Diagram for my project](nameOfImageFileHere.png)
+![UML Diagram for my project]
+https://drive.google.com/file/d/1t40L9SdmnaNwgN3Io8UCXlPlo7EKqAzG/view?usp=drive_link
 
 ## Description
 
-Write a description of your project here. Include what your store you made, and why you chose this topic. In your description, include as many vocab words from our class to explain how you represented the item/service from your store. If you have user input, explain how the user will interact with your store such as which questions are prompted to the user, what response is your program expecting, and how that is use to output information for your store in the console.
+For my project, I created a makeup store  that showcases various makeup products, specifically focusing on blush and eyeshadow. I chose this topic because I like makeup, and I find it really enjoyable to do. 
+
+The program features two main product types: Blush and Eyeshadow, both of which extend from the superclass MakeupProduct. This ranking illustrates the concept of inheritance, where both blush and eyeshadow inherit common attributes like name, price, and quantity from the MakeupProduct superclass. The MakeupProduct Class contains essential properties such as name, price, and quantity. It includes accessor (getter) and mutator (setter) methods to manage these properties, an example of encapsulation. The Blush subclass adds specific features like whether it is liquid or not and the shade. And for the Eyeshadow subclass, similar to the blush, includes properties like color and texture. The toString method overrides the superclass method to provide detailed information about the just the eyeshadow product.
